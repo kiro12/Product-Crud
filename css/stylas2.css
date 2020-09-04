@@ -1,0 +1,140 @@
+
+
+.navbar-dark .logo{
+    
+    color: #fed136;
+    font-size: 32;
+    font-weight: 500;
+    
+    
+}
+
+.navbar-dark .logo:hover{
+    
+    color: #fed136;
+}
+    
+.navbar-dark .navbar-nav .nav-link{
+    
+    color: white;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    
+    color: #fed136;
+}
+
+
+@media(max-width:991px){
+    
+    .navbar-dark .logo{
+        font-size: 21;
+        font-weight: 300px;
+    }
+    
+    
+}
+
+.home{
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    background-position: center center;
+    text-align: center;
+}
+
+.sub-advisor{
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-advisor-info{
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    position: absolute;
+bottom: 100%;    left: 0;
+    background-color:rgba(0,0,0,0.7);
+    
+    transform: scale(0.8);
+    color: white;
+    transition: all 1s
+}
+.sub-advisor:hover .sub-advisor-info{
+    
+bottom: 0;}
+
+.sub-advisor-words{
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    transition: all 1s ;
+    background-color: white;
+    color: black;
+    margin-left:  30px;
+}
+.sub-advisor:hover .hambozo{
+    bottom: -100%;
+    transition-delay: 0.5;
+}
+
+.category{
+    text-align: center;
+}
+.category-info{
+    
+    position: relative;
+}
+
+.category-overlay{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #337ab7;
+    transition: all 1s;
+    color: white;
+}
+
+.category-overlay:hover{
+    
+    background-color: rgba(51,122,180,0.58)
+}
+
+
+
+.modal-overlay{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    display: flex;
+    color: white;
+    opacity: 0;
+    
+    
+
+}
+.modal-body ul{
+    
+    list-style: none;
+}
+
+
+
+.modal-item:hover .modal-overlay{
+    
+    opacity: 1;
+    background-color: yellow;
+}
+
